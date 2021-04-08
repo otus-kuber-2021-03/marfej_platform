@@ -17,5 +17,19 @@
 
 Ответ: Для работы сервиса необходимы переменные окружения.
 
+# Выполнено ДЗ №2
+
+Выполнено:
+
+   - Созданы ReplicaSet для frontend и paymentservice.
+   - Создан Deployment для paymentservice.
+   - Проверены стратегии Blue-green и Reverse rolling update для Deployment (⭐).
+   - Настроен Readiness Probe для сервиса frontend.
+   - Настроен DaemonSet для Node Exporter (⭐, ⭐⭐). 
+
+Почему обновление ReplicaSet не повлекло обновление
+запущенных pod?
+
+Ответ:  ReplicaSet не умеет обновлять в частности шаблоны контейнеров. 
 
 
