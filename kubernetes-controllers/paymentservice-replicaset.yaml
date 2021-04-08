@@ -1,0 +1,22 @@
+apiVersion: apps/v1
+kind: ReplicaSet
+metadata:
+  name: paymentservice
+  labels:
+    app: paymentservice
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      tier: paymentservice
+  template:
+    metadata:
+      labels:
+        app: paymentservice
+        tier: paymentservice
+    spec:
+      containers:
+      - image: marfej/paymentservice:v1
+        name: frontend
+
+
