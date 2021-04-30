@@ -42,3 +42,16 @@
 # Выполнено ДЗ №4
     - Развернут StatefulSet
     - Данные перенесены в Secret (*)
+
+# Выполнено ДЗ №5
+
+Выполнено:
+    - Добавлены проверки (ReadinessProbe, LivenessProbe)
+    - Создан объект Deployment
+    - Добавлен сервис в кластер (ClusterIP)
+    - Включен режим балансировки IPVS
+    - Установлен MetaILB
+    - Добавлен сервис LoadBalancer
+    - Установлен ingress-nginx
+    - Cозданы правила Ingress
+    - Установлен kubernetes-dashboard и настроен префикс (*)
