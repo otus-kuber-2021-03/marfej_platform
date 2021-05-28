@@ -55,3 +55,24 @@
     - Установлен ingress-nginx
     - Cозданы правила Ingress
     - Установлен kubernetes-dashboard и настроен префикс (*)
+
+# Выполнено ДЗ №7
+
+Выполнено:
+    - Cозданы Custom Resource и Custom Resource Definition
+    - Создан оператор. Образ загружен в dockerhub
+    - Произведен deploy оператора
+
+Вывод kubectl get jobs:
+NAME                         COMPLETIONS   DURATION   AGE
+backup-mysql-instance-job    1/1           6s         16m
+restore-mysql-instance-job   1/1           25m        25m
+
+Вывод kubectl exec -it $MYSQLPOD -- mysql -potuspassword -e "select * from test;" otus-database:
+mysql: [Warning] Using a password on the command line interface can be insecure.
++----+-------------+
+| id | name        |
++----+-------------+
+|  1 | some data   |
+|  2 | some data-2 |
++----+-------------+
