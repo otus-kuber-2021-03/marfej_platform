@@ -89,4 +89,13 @@ mysql: [Warning] Using a password on the command line interface can be insecure.
     - Создан Pod
     - Проверо создание и восстановление снапшотов
  
+# Выполнено ДЗ kubernetes-debug
+
+Выполнено:
+
+    - Усноновлен kubectl-debug
+    - Проверена работа kubectl-debug с агентом и с DaemonSet
+    - Запущено тестовое приложение, проверена работа политик сети
+    - Настроен сбор и отображение логов сетевых политик
+
 
