@@ -46,6 +46,7 @@
 # Выполнено ДЗ №5
 
 Выполнено:
+
     - Добавлены проверки (ReadinessProbe, LivenessProbe)
     - Создан объект Deployment
     - Добавлен сервис в кластер (ClusterIP)
@@ -59,6 +60,7 @@
 # Выполнено ДЗ №7
 
 Выполнено:
+
     - Cозданы Custom Resource и Custom Resource Definition
     - Создан оператор. Образ загружен в dockerhub
     - Произведен deploy оператора
@@ -76,3 +78,24 @@ mysql: [Warning] Using a password on the command line interface can be insecure.
 |  1 | some data   |
 |  2 | some data-2 |
 +----+-------------+
+
+# Выполнено ДЗ kubernetes-storage
+
+Выполнено:
+
+    - Установлен драйвер [CSI Host Path Driver](https://github.com/kubernetes-csi/csi-driver-host-path)
+    - Создан StorageClass
+    - Создан PVC
+    - Создан Pod
+    - Проверо создание и восстановление снапшотов
+ 
+# Выполнено ДЗ kubernetes-debug
+
+Выполнено:
+
+    - Усноновлен kubectl-debug
+    - Проверена работа kubectl-debug с агентом и с DaemonSet
+    - Запущено тестовое приложение, проверена работа политик сети
+    - Настроен сбор и отображение логов сетевых политик
+
+
