@@ -88,6 +88,7 @@ mysql: [Warning] Using a password on the command line interface can be insecure.
     - Создан PVC
     - Создан Pod
     - Проверо создание и восстановление снапшотов
+
  
 # Выполнено ДЗ kubernetes-debug
 
@@ -99,3 +100,5 @@ mysql: [Warning] Using a password on the command line interface can be insecure.
     - Настроен сбор и отображение логов сетевых политик
 
 
+
+ 
