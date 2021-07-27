@@ -9,3 +9,4 @@ rules:
   - apiGroups: [""]
     resources: ["events"]
     verbs:     ["patch","create"]
+

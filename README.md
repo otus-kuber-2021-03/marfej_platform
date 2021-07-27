@@ -98,4 +98,3 @@ mysql: [Warning] Using a password on the command line interface can be insecure.
     - Запущено тестовое приложение, проверена работа политик сети
     - Настроен сбор и отображение логов сетевых политик
 
-

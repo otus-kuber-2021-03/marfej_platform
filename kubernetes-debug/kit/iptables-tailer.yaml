@@ -47,3 +47,4 @@
           - name: "service-logs"
             emptyDir: {}
 
+
